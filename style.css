@@ -10,23 +10,92 @@
 {
 	background: rgb(121, 191, 252);
 	height: 842px;
-	width: 170px;
+	width: 190px;
+}
+
+
+#photo
+{
+	text-align: center;
+	padding-top: 20px;
+	height: 13%;
+}
+
+
+#Contact
+{
+	height: 27%;
+}
+
+
+#Contact h1
+{
+	text-align: center;
+	background-color: rgb(74, 74, 74);
+	color: white;
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: normal;
+}
+
+
+#Contact p
+{
+	padding-left:20px;
+	font-size: 11px;
 }
 
 
 
-#photo
-
-
-
-#Contact
-
-
-
 #A_Propos_de_moi
+{
+	height: 43%;
+}
+
+
+#A_Propos_de_moi h2
+{
+	text-align: center;
+	background-color: rgb(74, 74, 74);
+	color: white;
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: normal;
+}
+
+#A_Propos_de_moi p
+{
+	font-size: 11px;
+	text-align: justify;
+	padding-left: 16px;
+	padding-right: 16px;
+}
 
 
 
-#Loisirs
+#Loisirs h3
+{
+	text-align: center;
+	background-color: rgb(74, 74, 74);
+	color: white;
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: normal;
+}
+
+
+#Loisirs i
+{
+	margin-left: 20px;
+}
+
+
+
+
+
+#Contenu
+
+
+#Titre
 
 
