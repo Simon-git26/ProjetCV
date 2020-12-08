@@ -1,17 +1,4 @@
 
-/* Responsive Design */
-
-@media all and (max-width: 1024px)
-{
-	#Page_Complete
-	{
-		width: auto;
-	}
-}
-
-
-
-
 /*Couleur fond */
 
 html
@@ -356,4 +343,74 @@ html
 	display: flex;
 	color: rgb(38, 38, 38);
 	justify-content: space-between;
+}
+
+
+
+/* Responsive Design */
+
+@media all and (max-width: 1024px)
+{
+	#Page_Complete
+	{
+		width: auto;
+		height: auto;
+		border: none;
+	}
+
+	#Liseret_gauche
+	{
+		display: none;
+	}
+
+	#Contenu
+	{
+		margin: auto;
+		height: auto;
+		border: 1px black solid;
+	}
+
+	#conteneur1
+	{
+		flex-direction: column;
+		padding-bottom: 70px;
+	}
+
+	#conteneur1 #para1
+	{
+		margin-left: 0px;
+	}
+
+	#conteneur2
+	{
+		flex-direction: column;
+		padding-bottom: 70px;
+	}
+
+	#conteneur2 #para2
+	{
+		margin-left: 0px;
+	}
+
+	#conteneur3
+	{
+		flex-direction: column;
+		padding-bottom: 70px;
+	}
+
+	#conteneur3 #para3
+	{
+		margin-left: 0px;
+	}
+
+	#conteneur4
+	{
+		flex-direction: column;
+		padding-bottom: 70px;
+	}
+
+	#conteneur4 #para4
+	{
+		margin-left: 0px;
+	}
 }
