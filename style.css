@@ -1,7 +1,27 @@
+
+/* Responsive Design */
+
+@media all and (max-width: 1024px)
+{
+	#Page_Complete
+	{
+		width: auto;
+	}
+}
+
+
+
+
+/*Couleur fond */
+
 html
 {
 	background-color: #adadad;
 }
+
+
+
+/*Taille et position page complete */
 
 #Page_Complete
 {
@@ -98,7 +118,7 @@ html
 #Contenu
 {
 	height: 900px;
-	width: auto;
+	width: 600px;
 	padding-left: 20px;
 	padding-right: 20px;
 	background-color: white;
