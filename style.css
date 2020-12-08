@@ -3,7 +3,6 @@ html
 	background-color: #adadad;
 }
 
-
 #Page_Complete
 {
 	width: 800px;
@@ -14,13 +13,15 @@ html
 }
 
 
+
+/* Liseret gauche */
+
 #Liseret_gauche
 {
 	background: rgb(121, 191, 252);
 	height: 900px;
 	width: 200px;
 }
-
 
 #photo
 {
@@ -29,12 +30,10 @@ html
 	height: 14%;
 }
 
-
 #Contact
 {
 	height: 29%;
 }
-
 
 #Contact h1
 {
@@ -46,7 +45,6 @@ html
 	font-weight: normal;
 }
 
-
 #Contact p
 {
 	padding-left:20px;
@@ -54,13 +52,10 @@ html
 	margin-bottom: 16px;
 }
 
-
-
 #A_Propos_de_moi
 {
 	height: 41.5%;
 }
-
 
 #A_Propos_de_moi h2
 {
@@ -81,8 +76,6 @@ html
 	padding-top: 10px;
 }
 
-
-
 #Loisirs h3
 {
 	text-align: center;
@@ -93,7 +86,6 @@ html
 	font-weight: normal;
 }
 
-
 #Loisirs i
 {
 	margin-left: 20px;
@@ -101,6 +93,7 @@ html
 
 
 
+/* Corps principal */
 
 #Contenu
 {
@@ -112,6 +105,9 @@ html
 }
 
 
+
+/* Header */
+
 #Titre
 {
 	text-transform: uppercase;
@@ -120,6 +116,9 @@ html
 }
 
 
+
+
+/* Main 1ere Section */
 
 #Formation h2
 {
@@ -136,7 +135,6 @@ html
 	background-repeat: repeat-x;
 	background-position: bottom;
 }
-
 
 
 #conteneur1
@@ -157,7 +155,6 @@ html
 	padding-left: 15px;
 }
 
-
 #conteneur1 #para1
 {
 	margin-left: 50px;
@@ -173,9 +170,6 @@ html
 {
 	font-size: 14px;
 }
-
-
-
 
 
 
@@ -216,7 +210,7 @@ html
 
 
 
-
+/* Main 2ieme Section */
 
 #Experience
 {
@@ -272,9 +266,6 @@ html
 
 
 
-
-
-
 #conteneur4
 {
 	display: flex;
@@ -310,6 +301,7 @@ html
 
 
 
+/* Footer */
 
 #Recommandations
 {
@@ -326,7 +318,6 @@ html
 	font-size: 19px;
 	margin-bottom: 0px;
 }
-
 
 #Reco1, p
 {
