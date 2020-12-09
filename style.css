@@ -13,7 +13,7 @@ html
 #Page_Complete
 {
 	width: 800px;
-	height: 900px;
+	height: 940px;
 	margin: auto;
 	display: flex;
 	border: 1px black solid;
@@ -26,14 +26,14 @@ html
 #Liseret_gauche
 {
 	background: rgb(121, 191, 252);
-	height: 900px;
+	height: 940px;
 	width: 200px;
 }
 
 #photo
 {
 	text-align: center;
-	padding-top: 25px;
+	padding-top: 15px;
 	height: 14%;
 }
 
@@ -55,13 +55,14 @@ html
 #Contact p
 {
 	padding-left:20px;
-	font-size: 12px;
+	font-size: 13px;
 	margin-bottom: 16px;
+	margin-top: 22px;
 }
 
 #A_Propos_de_moi
 {
-	height: 41.5%;
+	height: 43%;
 }
 
 #A_Propos_de_moi h2
@@ -76,11 +77,11 @@ html
 
 #A_Propos_de_moi p
 {
-	font-size: 13px;
+	font-size: 14px;
 	text-align: justify;
 	padding-left: 16px;
 	padding-right: 16px;
-	padding-top: 10px;
+	padding-top: 8px;
 }
 
 #Loisirs h3
@@ -104,7 +105,7 @@ html
 
 #Contenu
 {
-	height: 900px;
+	height: 940px;
 	width: 600px;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -119,7 +120,7 @@ html
 {
 	text-transform: uppercase;
 	font-size: 15px;
-	margin-bottom: 50px;
+	margin-bottom: 44px;
 }
 
 
@@ -147,9 +148,8 @@ html
 #conteneur1
 {
 	display: flex;
-	margin-bottom: 10px;
 	color: rgb(38, 38, 38);
-	height: 120px;
+	height: 105px;
 }
 
 #conteneur1 ul li
@@ -184,7 +184,7 @@ html
 {
 	display: flex;
 	color: rgb(38, 38, 38);
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	height: 110px;
 }
 
@@ -239,7 +239,6 @@ html
 #conteneur3
 {
 	display: flex;
-	margin-bottom: 10px;
 	color: rgb(38, 38, 38);
 	height: 120px;
 }
@@ -307,6 +306,39 @@ html
 }
 
 
+#conteneur5
+{
+	display: flex;
+	color: rgb(38, 38, 38);
+	height: 110px;
+}
+
+#conteneur5 ul li
+{
+	width: 100px;
+}
+
+#conteneur5 ul
+{
+	padding-left: 15px;
+}
+
+#conteneur5 #para5
+{
+	margin-left: 50px;
+}
+
+#para5 h2
+{
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+#para5 p
+{
+	font-size: 14px;
+}
+
 
 /* Footer */
 
@@ -337,6 +369,19 @@ html
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
+
+#Reco1 h3
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#Reco2 h3
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 
 #conteneur_reco
 {
@@ -410,6 +455,17 @@ html
 	}
 
 	#conteneur4 #para4
+	{
+		margin-left: 0px;
+	}
+
+	#conteneur5
+	{
+		flex-direction: column;
+		padding-bottom: 70px;
+	}
+
+	#conteneur5 #para5
 	{
 		margin-left: 0px;
 	}
