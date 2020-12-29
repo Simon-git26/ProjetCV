@@ -158,10 +158,6 @@ html
 	font-size: 14px;
 }
 
-#conteneur1 #para1
-{
-	margin-left: 50px;
-}
 
 #conteneur1
 {
@@ -179,6 +175,12 @@ html
 {
 	padding-left: 15px;
 }
+
+#conteneur1 #para1
+{
+	margin-left: 50px;
+}
+
 
 
 
