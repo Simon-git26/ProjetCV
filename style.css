@@ -128,15 +128,6 @@ html
 
 /* Main 1ere Section */
 
-#formation h2
-{
-	padding-bottom: 10px;
-	text-transform: uppercase;
-	font-size: 19px;
-	margin-bottom: 5px;
-}
-
-
 #formation
 {
 	background-image: url('Images/separateur.png');
@@ -146,6 +137,30 @@ html
 	align-items: baseline;
 }
 
+.title
+{
+	text-transform: uppercase;
+	font-size: 19px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+}
+
+
+.h2
+{
+	font-size: 10px;
+	text-transform: uppercase;
+}
+
+.paragraphe
+{
+	font-size: 14px;
+}
+
+#conteneur1 #para1
+{
+	margin-left: 50px;
+}
 
 #conteneur1
 {
@@ -164,21 +179,6 @@ html
 	padding-left: 15px;
 }
 
-#conteneur1 #para1
-{
-	margin-left: 50px;
-}
-
-#para1 h2
-{
-	font-size: 15px;
-	text-transform: uppercase;
-}
-
-#para1 p
-{
-	font-size: 14px;
-}
 
 
 
@@ -205,17 +205,6 @@ html
 	margin-left: 50px;
 }
 
-#para2 h2
-{
-	font-size: 15px;
-	text-transform: uppercase;
-}
-
-#para2 p
-{
-	font-size: 14px;
-}
-
 
 
 
@@ -226,14 +215,8 @@ html
 	background-image: url('Images/separateur.png');
 	background-repeat: repeat-x;
 	background-position: bottom;
-}
-
-#experience h2
-{
-	padding-bottom: 10px;
-	text-transform: uppercase;
-	font-size: 19px;
-	margin-bottom: 5px;
+	display: flex;
+	align-items: baseline;
 }
 
 
@@ -261,17 +244,6 @@ html
 	margin-left: 50px;
 }
 
-#para3 h2
-{
-	font-size: 15px;
-	text-transform: uppercase;
-}
-
-#para3 p
-{
-	font-size: 14px;
-}
-
 
 
 #conteneur4
@@ -296,16 +268,7 @@ html
 	margin-left: 50px;
 }
 
-#para4 h2
-{
-	font-size: 15px;
-	text-transform: uppercase;
-}
 
-#para4 p
-{
-	font-size: 14px;
-}
 
 
 #conteneur5
@@ -330,16 +293,7 @@ html
 	margin-left: 50px;
 }
 
-#para5 h2
-{
-	font-size: 15px;
-	text-transform: uppercase;
-}
 
-#para5 p
-{
-	font-size: 14px;
-}
 
 
 /* Footer */
@@ -350,15 +304,10 @@ html
 	background-repeat: repeat-x;
 	background-position: bottom;
 	margin-top: 30px;
+	display: flex;
+	align-items: baseline;
 }
 
-#recommandations h2
-{
-	padding-bottom: 10px;
-	text-transform: uppercase;
-	font-size: 19px;
-	margin-bottom: 0px;
-}
 
 #reco1, p
 {
