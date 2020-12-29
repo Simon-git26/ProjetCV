@@ -10,7 +10,7 @@ html
 
 /*Taille et position page complete */
 
-#Page_Complete
+#page_Complete
 {
 	width: 800px;
 	height: 940px;
@@ -23,7 +23,7 @@ html
 
 /* Liseret gauche */
 
-#Liseret_gauche
+#liseret_gauche
 {
 	background: rgb(121, 191, 252);
 	height: 940px;
@@ -37,12 +37,12 @@ html
 	height: 14%;
 }
 
-#Contact
+#contact
 {
 	height: 29%;
 }
 
-#Contact h1
+#contact h1
 {
 	text-align: center;
 	background-color: rgb(74, 74, 74);
@@ -52,7 +52,7 @@ html
 	font-weight: normal;
 }
 
-#Contact p
+#contact p
 {
 	padding-left:20px;
 	font-size: 13px;
@@ -60,12 +60,12 @@ html
 	margin-top: 22px;
 }
 
-#A_Propos_de_moi
+#a_propos_de_moi
 {
 	height: 43%;
 }
 
-#A_Propos_de_moi h2
+#a_propos_de_moi h2
 {
 	text-align: center;
 	background-color: rgb(74, 74, 74);
@@ -75,7 +75,7 @@ html
 	font-weight: normal;
 }
 
-#A_Propos_de_moi p
+#a_propos_de_moi p
 {
 	font-size: 14px;
 	text-align: justify;
@@ -84,7 +84,7 @@ html
 	padding-top: 8px;
 }
 
-#Loisirs h3
+#loisirs h3
 {
 	text-align: center;
 	background-color: rgb(74, 74, 74);
@@ -94,7 +94,7 @@ html
 	font-weight: normal;
 }
 
-#Loisirs i
+#loisirs i
 {
 	margin-left: 20px;
 }
@@ -103,7 +103,7 @@ html
 
 /* Corps principal */
 
-#Contenu
+#contenu
 {
 	height: 940px;
 	width: 600px;
@@ -116,7 +116,7 @@ html
 
 /* Header */
 
-#Titre
+#titre
 {
 	text-transform: uppercase;
 	font-size: 15px;
@@ -128,7 +128,7 @@ html
 
 /* Main 1ere Section */
 
-#Formation h2
+#formation h2
 {
 	padding-bottom: 10px;
 	text-transform: uppercase;
@@ -137,11 +137,13 @@ html
 }
 
 
-#Formation
+#formation
 {
-	background-image: url('C:/Users/User/Documents/Git/ProjetCV/ProjetCV/separateur.png');
+	background-image: url('Images/separateur.png');
 	background-repeat: repeat-x;
 	background-position: bottom;
+	display: flex;
+	align-items: baseline;
 }
 
 
@@ -219,14 +221,14 @@ html
 
 /* Main 2ieme Section */
 
-#Experience
+#experience
 {
-	background-image: url('C:/Users/User/Documents/Git/ProjetCV/ProjetCV/separateur.png');
+	background-image: url('Images/separateur.png');
 	background-repeat: repeat-x;
 	background-position: bottom;
 }
 
-#Experience h2
+#experience h2
 {
 	padding-bottom: 10px;
 	text-transform: uppercase;
@@ -342,15 +344,15 @@ html
 
 /* Footer */
 
-#Recommandations
+#recommandations
 {
-	background-image: url('C:/Users/User/Documents/Git/ProjetCV/ProjetCV/separateur.png');
+	background-image: url('Images/separateur.png');
 	background-repeat: repeat-x;
 	background-position: bottom;
 	margin-top: 30px;
 }
 
-#Recommandations h2
+#recommandations h2
 {
 	padding-bottom: 10px;
 	text-transform: uppercase;
@@ -358,25 +360,25 @@ html
 	margin-bottom: 0px;
 }
 
-#Reco1, p
+#reco1, p
 {
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
 
-#Reco2, p
+#reco2, p
 {
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
 
-#Reco1 h3
+#reco1 h3
 {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
-#Reco2 h3
+#reco2 h3
 {
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -396,19 +398,19 @@ html
 
 @media all and (max-width: 1024px)
 {
-	#Page_Complete
+	#page_Complete
 	{
 		width: auto;
 		height: auto;
 		border: none;
 	}
 
-	#Liseret_gauche
+	#liseret_gauche
 	{
 		display: none;
 	}
 
-	#Contenu
+	#contenu
 	{
 		margin: auto;
 		height: auto;
