@@ -135,6 +135,7 @@ html
 	background-position: bottom;
 	display: flex;
 	align-items: baseline;
+	height: 45px;
 }
 
 .title
@@ -217,6 +218,7 @@ html
 	background-position: bottom;
 	display: flex;
 	align-items: baseline;
+	height: 45px;
 }
 
 
@@ -303,36 +305,11 @@ html
 	background-image: url('Images/separateur.png');
 	background-repeat: repeat-x;
 	background-position: bottom;
-	margin-top: 30px;
+	margin-top: 10px;
 	display: flex;
 	align-items: baseline;
+	height: 45px;
 }
-
-
-#reco1, p
-{
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-
-#reco2, p
-{
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-
-#reco1 h3
-{
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-
-#reco2 h3
-{
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-
 
 #conteneur_reco
 {
@@ -340,6 +317,20 @@ html
 	color: rgb(38, 38, 38);
 	justify-content: space-between;
 }
+
+.h3
+{
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+
+.footerp p
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 
 
 
